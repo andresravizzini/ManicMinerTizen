@@ -1,0 +1,16 @@
+node_modules/
+generated/
+artifacts/
+test-results/
+playwright-report/
+tizen/Release/
+tizen/Debug/
+tizen/.buildResult/
+tizen/.package/
+*.wgt
+*.p12
+*.pfx
+*.pem
+*.key
+*.log
+.env*

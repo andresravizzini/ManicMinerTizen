@@ -1,0 +1,29 @@
+project_type: web_app
+profile: tv-samsung
+api_version: "3.0"
+build_type: Release
+output_name: ManicMinerTizen
+output_path: ""
+opt: false
+signing_profile: ""
+trust_anchor: []
+files:
+  - index.html
+  - style.css
+  - app.js
+  - machine.js
+  - icon-willy.png
+  - vendor/emulator.js
+  - vendor/COPYING
+  - vendor/README
+  - UPSTREAM-NOTICE.txt
+  - THIRD-PARTY.md
+excludes:
+  - Build/*
+  - Release/*
+  - Debug/*
+  - .buildResult/*
+  - .package/*
+  - '*.wgt'
+  - tizen_web_project.yaml
+deps: []

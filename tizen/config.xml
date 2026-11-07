@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://local.manicminer.tv/app" version="1.0.0" viewmodes="maximized">
+  <tizen:application id="MinerTV001.ManicMiner" package="MinerTV001" required_version="3.0"/>
+  <content src="index.html"/>
+  <name>Manic Miner TV</name>
+  <icon src="icon-willy.png"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/screen.size" value="supported"/>
+  <tizen:content-security-policy>default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;</tizen:content-security-policy>
+</widget>

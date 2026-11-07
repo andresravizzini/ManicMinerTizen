@@ -1,0 +1,17 @@
+{
+  "name": "manic-miner-tizen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-tv.mjs",
+    "start": "node tools/serve-tv.mjs",
+    "test": "npm run build && node --test test-tv/*.test.mjs",
+    "test:browser": "playwright test --config test-tv/playwright.config.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "acorn": "8.15.0",
+    "coffeescript": "1.12.7"
+  }
+}
